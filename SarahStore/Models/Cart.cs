@@ -6,7 +6,7 @@ namespace SarahStore.Models
 {
     public class Cart
     {
-        private static List<CartLine> lineCollection = new List<CartLine>();
+        private List<CartLine> lineCollection = new List<CartLine>();
 
         public virtual void AddItem(Product product, int quantity)
         {
